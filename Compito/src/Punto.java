@@ -12,11 +12,12 @@ public class Punto {
         this.x = x;
         this.y = y;
     }
-
+    
     /**
-     * Calcola la distanza tra l'oggetto che chiama il metodo e quello passato come parametro
-     * @param p punto con cui calcolare la distanza
-     * @return la distanza l'oggetto che chiama il metodo e quello passato come parametro
+     * Calculate the distance between the object that calls the method and the one passed as parameter
+     * 
+     * @param p punto to calcutate the distance
+     * @return distance between the object that calls the method and the one passed as parameter
      */
     public double distanza(Punto p) {
         return Math.sqrt(Math.pow(p.x - this.x, 2) + Math.pow(p.y - this.y, 2));
